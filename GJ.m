@@ -16,8 +16,8 @@ disp('--Metodo de Eliminacion de Gauss Jordan--');
 %Imprimimos el mensaje de instrucciones
 disp('::Ingrese la Matriz Aumentada --- (valore de los coeficientes|valores de los terminos indipendiente)::');
 %Ingresamos la matriz aumentada A∗=(A|b) (valore de los coeficientes|valores de los terminos indipendiente)
-luisA=input ('A x=(A|b): ');
+luis_A=input ('A x=(A|b): ');
 %Devuelve la forma escalonada de fila reducida de A usa la eliminación con pivote parcial.
-rref(luisA)
+rref(luis_A)
 
 %Ejemplo [1 2 4 5; 4 1 -1 5; 2 5 2 8]
